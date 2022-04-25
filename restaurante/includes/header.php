@@ -16,5 +16,3 @@
 
 <!-- Template Main CSS File -->
 <link href="<?=base_url()?>assets/css/style.css" rel="stylesheet">
-<?php
-$datos_empresa = cargarDatosEmpresa();

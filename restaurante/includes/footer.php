@@ -6,12 +6,13 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Restaurantly</h3>
+              <h3><?=cargarDatosEmpresa()['nombre_empresa']?></h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                <?=cargarDatosEmpresa()['direccion_empresa']?>
+                <br>
+                <br>
+                <strong>Teléfono:</strong> <?=cargarDatosEmpresa()['numero_fijo']?><br>
+                <strong>Correo electrónico:</strong> <?=cargarDatosEmpresa()['correo_empresa']?><br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -60,14 +61,14 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span><?=cargarDatosEmpresa()['nombre_empresa']?></span></strong>. Todos los derechos reservados
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Diseñado por <a href="#">Shelby</a>
       </div>
     </div>
   </footer><!-- End Footer -->

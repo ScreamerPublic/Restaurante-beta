@@ -16,7 +16,7 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Bienvenido a <span><?=$datos_empresa['nombre_empresa']?></span></h1>
+          <h1>Bienvenido a <span><?=cargarDatosEmpresa()['nombre_empresa']?></span></h1>
           <h2>Entregando excelente comida por más de 18 años!</h2>
 
           <div class="btns">
@@ -731,25 +731,25 @@
 		  <div class="address">
 			<i class="bi bi-geo-alt"></i>
 			<h4>Localización:</h4>
-			<p><?=$datos_empresa['direccion_empresa']?></p>
+			<p><?=cargarDatosEmpresa()['direccion_empresa']?></p>
 		  </div>
 
 		  <div class="open-hours">
 			<i class="bi bi-clock"></i>
 			<h4>Horarios de apertura:</h4>
-			<p><?=$datos_empresa['horarios_atencion']?></p>
+			<p><?=cargarDatosEmpresa()['horarios_atencion']?></p>
 		  </div>
 
 		  <div class="email">
 			<i class="bi bi-envelope"></i>
 			<h4>Correo electrónico:</h4>
-			<p><?=$datos_empresa['correo_empresa']?></p>
+			<p><?=cargarDatosEmpresa()['correo_empresa']?></p>
 		  </div>
 
 		  <div class="phone">
 			<i class="bi bi-phone"></i>
 			<h4>Llamar:</h4>
-			<p><?=$datos_empresa['numero_fijo']?></p>
+			<p><?=cargarDatosEmpresa()['numero_fijo']?></p>
 		  </div>
 
 		</div>
