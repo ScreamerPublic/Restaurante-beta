@@ -1,6 +1,6 @@
 <div class="container">
     <div class="copyright">
-    &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+    &copy; Copyright <strong><span><?=$datos_empresa['nombre_empresa']?></span></strong>. Todos lo derechos reservados
     </div>
     <div class="credits">
     <!-- All the links in the footer should remain intact. -->
